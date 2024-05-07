@@ -1,0 +1,15 @@
+{
+    "name": "project/phpsistem",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Sys\\": "sys/",
+            "Sys\\Connection\\": "sys/connection/",
+            "App\\": "app/",
+            "App\\Controller\\": "app/controller/",
+            "App\\Model\\": "app/model/",
+            "App\\View\\": "app/view/",
+            "App\\View\\Components\\": "app/view/components/"       
+        }
+    }
+}
